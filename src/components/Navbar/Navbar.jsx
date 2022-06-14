@@ -1,3 +1,5 @@
+/* eslint-disable react/function-component-definition */
+
 import { Link } from "react-router-dom";
 
 // @mui components
@@ -14,11 +16,11 @@ const Navbar = () => {
 
   return (
     <Container>
-      {languageState.texts.Links.map((item) => {
+      {languageState.texts.Links.map((item) => (
         <Link key={item.to} to={item.to}>
           <Button>{item.label}</Button>
-        </Link>;
-      })}
+        </Link>
+      ))}
     </Container>
   );
 };

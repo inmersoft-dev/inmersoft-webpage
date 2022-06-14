@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // layouts
 import View from "layouts/View/View";
@@ -9,6 +9,7 @@ import News from "views/News/News";
 import Contact from "views/Contact/Contact";
 import Projects from "views/Projects/Projects";
 import Details from "views/Details/Details";
+import About from "views/About/About";
 
 function App() {
   return (
