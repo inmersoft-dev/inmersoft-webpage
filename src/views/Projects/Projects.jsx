@@ -1,7 +1,8 @@
-import React from "react";
+// @mui components
+import { Box } from "@mui/material";
 
 const Projects = () => {
-  return <div></div>;
+  return <Box>Hola</Box>;
 };
 
 export default Projects;
