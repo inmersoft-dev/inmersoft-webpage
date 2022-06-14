@@ -1,1 +1,11 @@
-{}
+{
+  "es": {
+    "Links": [
+      { "label": "Inicio", "to": "/" },
+      { "label": "¿Qué hacemos?", "to": "/about" },
+      { "label": "Proyectos", "to": "/proyectos" },
+      { "label": "Noticias", "to": "/news" },
+      { "label": "Contacto", "to": "/contact" }
+    ]
+  }
+}

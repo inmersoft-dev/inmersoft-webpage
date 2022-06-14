@@ -1,7 +1,7 @@
 import React from "react";
 
-const Details = () => {
+const Projects = () => {
   return <div></div>;
 };
 
-export default Details;
+export default Projects;
